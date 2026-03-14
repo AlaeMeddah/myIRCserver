@@ -111,9 +111,6 @@ During development I had to solve several common networking problems:
 
 Future improvements could include:
 
--   private messaging between users\
--   listing available chat rooms\
--   displaying users in a room\
 -   better command handling\
 -   compatibility with real IRC clients
 
