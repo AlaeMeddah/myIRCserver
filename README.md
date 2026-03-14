@@ -1,7 +1,7 @@
 # 💬 IRC-Style Chat Server (C++)
 
 A **multi-client chat server written in C++** using low-level TCP
-sockets.\
+sockets.
 This project focuses on understanding **how network communication
 works** and how servers manage multiple users simultaneously.
 
@@ -14,10 +14,10 @@ time.
 
 Main features implemented:
 
--   👥 Multiple clients can connect at the same time\
--   🏷️ Users choose a nickname\
--   📢 Messages are broadcast to other connected users\
--   💬 Chat rooms allow group discussions\
+-   👥 Multiple clients can connect at the same time
+-   🏷️ Users choose a nickname
+-   📢 Messages are broadcast to other connected users
+-   💬 Chat rooms allow group discussions
 -   🔌 Clients can connect from different machines on the network
 
 The server uses an **event-driven architecture** to efficiently manage
@@ -42,8 +42,8 @@ Instead of creating a thread for each user, the server monitors multiple
 connections at the same time and reacts when something happens (new
 connection, incoming message, disconnection).
 
-This approach makes the server: - more efficient\
-- easier to control\
+This approach makes the server: - more efficient
+- easier to control
 - scalable for multiple users
 
 ### 📦 Message Handling
@@ -51,7 +51,7 @@ This approach makes the server: - more efficient\
 One important challenge was understanding that **network messages do not
 always arrive exactly as they were sent**.
 
-Messages may arrive: - split into several pieces\
+Messages may arrive: - split into several pieces
 - combined with other messages
 
 A buffering system ensures that **messages are reconstructed correctly
@@ -64,7 +64,7 @@ identify who is sending messages.
 
 Example:
 
-Alice: Hello everyone!\
+Alice: Hello everyone!
 Bob: Hi Alice!
 
 ### 💬 Chat Rooms
@@ -99,10 +99,10 @@ During development I had to solve several common networking problems:
 
 # 📚 Skills Practiced
 
-💻 C++ systems programming\
-🌐 TCP networking\
-⚡ event-driven architecture\
-🧠 problem solving and debugging\
+💻 C++ systems programming
+🌐 TCP networking
+⚡ event-driven architecture
+🧠 problem solving and debugging
 🔌 client-server communication
 
 ------------------------------------------------------------------------
@@ -111,7 +111,7 @@ During development I had to solve several common networking problems:
 
 Future improvements could include:
 
--   better command handling\
+-   better command handling
 -   compatibility with real IRC clients
 
 ------------------------------------------------------------------------
@@ -124,8 +124,8 @@ communication servers work**.
 By building a chat server from scratch, I gained practical experience
 with:
 
--   network protocols\
--   multi-client server design\
+-   network protocols
+-   multi-client server design
 -   real-time communication systems
 
 It was a great hands-on project for exploring **network programming and
